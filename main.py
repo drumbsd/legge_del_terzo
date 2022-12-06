@@ -1,5 +1,4 @@
 from random import *
-from collections import defaultdict
 from termcolor import colored
 
 counter = 0
