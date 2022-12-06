@@ -8,10 +8,10 @@ nonestratti = []
 estrattiunavolta = []
 estrattipiuvolte = []
 tabella = dict.fromkeys(range(1,91),0)
-for i in range (1,90):
-    numero = randint(1,90)
+for i in range (1,91):
+    numero = randint(1,91)
     tabella[numero] += 1
-for i in range (1,90):
+for i in range (1,91):
     if tabella[i] == 0:
        counter += 1
        nonestratti.append(i)
