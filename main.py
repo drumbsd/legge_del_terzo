@@ -8,10 +8,7 @@ countermolti = 0
 nonestratti = []
 estrattiunavolta = []
 estrattipiuvolte = []
-tabella = {}
-tabella = defaultdict(int,tabella)
-for i in range (1,90):
-    tabella[i] = 0 
+tabella = dict.fromkeys(range(1,91),0)
 for i in range (1,90):
     numero = randint(1,90)
     tabella[numero] += 1
