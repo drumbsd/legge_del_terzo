@@ -45,3 +45,5 @@ Numeri estratti piu' volte 24 Percentuale: 26 %
 Dei precedenti 31 numeri non estratti, al ciclo successivo sono stati estratti:
 
 `1,5,7,22,24,29,30,32,33,36,37,40,42,54,60,61,63,68,84` Per un totale di 19 numeri. I 2/3 di 31 e' pari a 20. 
+
+#TEST
